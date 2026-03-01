@@ -1,0 +1,36 @@
+{
+    "name": "chrome-devtools-logger",
+    "version": "0.1.0",
+    "description": "Structured logging for Chrome extensions — log levels, categories, remote viewing, filtering, and JSON export for MV3.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "logger",
+        "devtools",
+        "structured",
+        "logging",
+        "debug",
+        "manifest-v3",
+        "browser-extension"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/chrome-devtools-logger.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
