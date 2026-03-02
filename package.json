@@ -1,0 +1,14 @@
+{
+  "name": "chrome-devtools-logger",
+  "version": "1.0.0",
+  "description": "Structured logging with levels, categories, remote viewing and log viewer panel",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["chrome-extension", "logging", "debugging", "devtools"],
+  "author": "theluckystrike",
+  "license": "MIT"
+}
